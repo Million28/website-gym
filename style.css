@@ -335,7 +335,13 @@ nav .signup {
    
 }
 
+.section-text h1{
+     color: white;
+}
 
+.section-text p{
+    color: wheat;
+}
 
 .schedule-container {
     padding: 20px;
