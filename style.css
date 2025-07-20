@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+
+.main {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('photos/bg01.jpg') no-repeat center center/cover;
+
+}
+
+
+.logo {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+span {
+    color: #ed563b;
+
+}
+
+
+
+
+
+header {
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .signup {
+    background-color: #ed563b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+}
+
+.hero-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 90px;
+
+}
+
+.hero-text h2 {
+    font-size: 130px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.hero-text .btn {
+    background-color: #ed563b;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+/* page */
+.section1 {
+    height: 150vh;
+}
+
+.container .section-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-text p {
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 100px;
+    margin-right: 00px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.icon-box {
+   background-color: #ed563b;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+
+.card-content h3 {
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: #f44336;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.section2 {
+    height: 70vh;
+    background: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg) no-repeat center center/cover;
+}
+
+.section2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 40px;
+}
+
+.section2-text {
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.section2-text h1 {
+    font-size: 70px;
+}
+.section2-text p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section-btn{
+    background-color: #ed563b;
+    color: rgb(255, 255, 255) ;
+    margin-top: 30px;
+     padding: 20px 20px;
+     border: none;
+     border-radius: 5px;
+   font-size: 20px;
+    text-decoration: none;
+  
+   
+}
+
+/* page 4 */
+.section3 {
+    height: 100vh;
+  
+    
+}
+
+.container .section-text{
+    margin-bottom: 100px;
+}
+
+.container2 {
+  display: flex;
+  gap: 30px;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-left: 100px;
+}
+
+.card img {
+  width: 30px;
+  height: 30px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+.card.active {
+  color: #f24e1e;
+}
+
+.card.active h3 {
+  color: #f24e1e;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  
+}
+
+.btn-section{
+    margin-top: 30px;
+}
+
+
+
+.main-image {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* page 5 */
+
+.schedule{
+    height: 140vh;
+    background: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg)   ;
+   
+}
+
+
+
+.schedule-container {
+    padding: 20px;
+    margin-bottom: 40px;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 10px;
+    
+    
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid  white;
+    padding: 20px;
+}
+
+.schedule-table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.schedule-table td {
+     background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+
+
+.design{
+    height: 120vh;
+
+}
+
+.container-content img{
+    width: 200px;
+}
+
+.container6 {
+  
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+
+.container-content img{
+    border-radius: 10px;
+}
+
+.container-content h2{
+    color: #f24e1e;
+    margin-top: 10px;
+}
+
+.container-content p{
+   margin-top: 15px;
+}
+
+.container-content i:hover{
+    color: #ed563b;
+}
+
+.last-design{
+    margin-top: 50px;
+    
+}
+
+.design-content{
+    height: 70vh;
+    width: 100vh;
+    background: url(photos/bg04.jpg) center /cover;
+}
+
+
+footer{
+    background-color: #555;
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.forms{
+    width: 450px;
+    height: 300px;
+    background-color: #eee8e8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    color: black;
+    
+    
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#form{
+    margin-top: 30px;
+}
+
+#form2{
+    width: 100%;
+    height: 50%;
+    text-align: start;
+    margin-top: 5px;
+    border: none;
+    color: black;
+}
+
+.section-bt{
+    padding: 10px 10px;
+    background-color: #ed563b;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
