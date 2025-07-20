@@ -335,12 +335,9 @@ nav .signup {
    
 }
 
-.section-text h1{
-     color: white;
-}
 
-.section-text p{
-    color: wheat;
+#text {
+    color: white;
 }
 
 .schedule-container {
