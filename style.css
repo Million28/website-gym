@@ -612,6 +612,7 @@ input{
   }
 
   .icon-box {
+    align-items: center;
     margin-left: 0;
   }
 
